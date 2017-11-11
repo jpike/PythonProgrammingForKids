@@ -30,20 +30,20 @@ for line_index in range(TITLE_SCREEN_BODY_HEIGHT_IN_CHARACTERS):
         GAME_TITLE = 'SPACE COLONY ADVENTURE'
         current_title_screen_body_line += GAME_TITLE.center(
             title_screen_body_line_content_character_count, 
-            TITLE_SCREEN_BODY_FILL_CHARACTER )
+            TITLE_SCREEN_BODY_FILL_CHARACTER)
     elif TITLE_SCREEN_BODY_START_GAME_LINE_INDEX == line_index:
         # The content of this line of the title screen body should tell the player
         # to press the enter key to start.
         current_title_screen_body_line += 'Press Enter to Start'.center(
             title_screen_body_line_content_character_count,
-            TITLE_SCREEN_BODY_FILL_CHARACTER )
+            TITLE_SCREEN_BODY_FILL_CHARACTER)
     else:
         # The content of this line of the title screen body should be filled with whitespace.
         current_title_screen_body_line += (
             TITLE_SCREEN_BODY_FILL_CHARACTER * 
             title_screen_body_line_content_character_count)
 
-    # Each line of the title screen body starts with a border on the right.
+    # Each line of the title screen body ends with a border on the right.
     current_title_screen_body_line += TITLE_BORDER_CHARACTER
 
     print(current_title_screen_body_line)
