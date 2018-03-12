@@ -53,6 +53,24 @@ def DisplayTitleScreen():
     # After the main body of the title screen, the bottom border should be printed.
     print(HORIZONTAL_TITLE_BORDER)
 
+## Displays options to the player and gets the option chosen by the player.
+## \param[in]   option_1 - The string text for the first option to display to the player.
+##      Will correspond to the option numbered 1 that the player can choose.
+## \param[in]   option_2 - The string text second option to display to the player.
+##      Will correspond to the option numbered 2 that the player can choose.
+## \return  The integer number entered by the player for the option chosen.
+def DisplayOptionsAndGetPlayerChoice(option_1, option_2):
+    # INFORM THE PLAYER THAT OPTIONS CAN BE CHOSEN.
+    print("Choose an option: ")
+
+    # DISPLAY THE OPTIONS.
+    print("1. " + option_1)
+    print("2. " + option_2)
+
+    # GET THE OPTION CHOSEN BY THE PLAYER.
+    chosen_option = int(input("Input your option now (1 or 2): "))
+    return chosen_option
+
 # DISPLAY THE TITLE SCREEN.
 DisplayTitleScreen()
 
@@ -65,10 +83,9 @@ print("Beginning...")
 
 # HAVE THE PLAYER MAKE A DECISION FOR THE FIRST SCENARIO.
 print("You wake up one morning on a space colony on the moon of the planet Ewar.  You feel a quake and rumbles.")
-print("Choose an option: ")
-print("1. Run outside with your space suit on.")
-print("2. Stay indoors.")
-option = int(input("Input your option now (1 or 2): "))
+option = DisplayOptionsAndGetPlayerChoice(
+    "Run outside with your space suit on.",
+    "Stay indoors.")
 
 # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
 RUN_OUTSIDE_OPTION = 1
@@ -77,10 +94,9 @@ if RUN_OUTSIDE_OPTION == option:
     # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
     print("You run outdoors, get on a ship, and escape the planet.")
     print("You land on a planet that appears to be abandoned.")
-    print("Choose an option: ")
-    print("1. Stay there and leave in the morning after some rest.")
-    print("2. Leave now.")
-    option = int(input("Input your option now (1 or 2): "))
+    option = DisplayOptionsAndGetPlayerChoice(
+        "Stay there and leave in the morning after some rest.",
+        "Leave now.")
 
     # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
     STAY_AND_REST_OPTION = 1
@@ -88,10 +104,9 @@ if RUN_OUTSIDE_OPTION == option:
     if STAY_AND_REST_OPTION == option:
         # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
         print("During the night, you see a bright light and hear some rumbling.")
-        print("Choose an option: ")
-        print("1. Go outside to investigate.")
-        print("2. Leave the planet and head towards a bright star.")
-        option = int(input("Input your option now (1 or 2): "))
+        option = DisplayOptionsAndGetPlayerChoice(
+            "Go outside to investigate.",
+            "Leave the planet and head towards a bright star.")
 
         # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
         GO_OUTSIDE_OPTION = 1
@@ -100,10 +115,9 @@ if RUN_OUTSIDE_OPTION == option:
             # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
             print("You ran outside and were captured by aliens.")
             print("The aliens put you to work.  You see a friend motioning you over with his hand.")
-            print("Choose an option: ")
-            print("1. Go over and see what your friend wants.")
-            print("2. Continue working.")
-            option = int(input("Input your option now (1 or 2): "))
+            option = DisplayOptionsAndGetPlayerChoice(
+                "Go over and see what your friend wants.",
+                "Continue working.")
 
             # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
             SEE_WHAT_FRIEND_WANTS_OPTION = 1
@@ -111,10 +125,9 @@ if RUN_OUTSIDE_OPTION == option:
             if SEE_WHAT_FRIEND_WANTS_OPTION == option:
                 # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
                 print("You met up with your friend.  He came up with an escape plan.  You, your family, and friends debate on whether to follow the plan or not.  Some agree with the plan.  Others do not.")
-                print("Choose an option: ")
-                print("1. Continue debating.")
-                print("2. Decide to go along with the plan with only you, your friend, and a few others.")
-                option = int(input("Input your option now (1 or 2): "))
+                option = DisplayOptionsAndGetPlayerChoice(
+                    "Continue debating.",
+                    "Decide to go along with the plan with only you, your friend, and a few others.")
 
                 # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
                 CONTINUE_DEBATING_OPTION = 1
@@ -122,10 +135,9 @@ if RUN_OUTSIDE_OPTION == option:
                 if CONTINUE_DEBATING_OPTION == option:
                     # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
                     print("Everyone reaches agreement with a new plan.  The plan is carried out.  However, near the end of the plan, you notice that you do not have enough escape ships to comfortably seat everyone.")
-                    print("Choose an option: ")
-                    print("1. Send others and stay behind yourself with a few others.")
-                    print("2. Squeeze everyone into ships.")
-                    option = int(input("Input your option now (1 or 2): "))
+                    option = DisplayOptionsAndGetPlayerChoice(
+                        "Send others and stay behind yourself with a few others.",
+                        "Squeeze everyone into ships.")
 
                     # RESPOND TO THE OPTION THE PLAYER SELECTED FOR THE SCENARIO.
                     SEND_OTHERS_AWAY_BUT_STAY_BEHIND_YOURSELF_OPTION = 1

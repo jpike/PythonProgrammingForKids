@@ -53,7 +53,7 @@ if 1 == option:
                     # HAVE THE PLAYER MAKE A DECISION FOR THE NEXT SCENARIO.
                     print("Everyone reaches agreement with a new plan.  The plan is carried out.  However, near the end of the plan, you notice that you do not have enough escape ships to comfortably seat everyone.")
                     print("Choose an option: ")
-                    print("1. Send others and stay behind yourself and a few others.")
+                    print("1. Send others and stay behind yourself with a few others.")
                     print("2. Squeeze everyone into ships.")
                     option = int(input("Input your option now (1 or 2): "))
 
