@@ -67,9 +67,9 @@ while True:
         print("Score: " + str(score))
 
         # CREATE A COLLECTIBLE IN A NEW POSITION.
-        MAX_COLLECTIBLE_X = SCREEN_WIDTH_IN_PIXELS - collectible_width_in_pixels
+        MAX_COLLECTIBLE_X = SCREEN_WIDTH_IN_PIXELS - COLLECTIBLE_SIZE_IN_PIXELS
         collectible_x = random.randrange(MAX_COLLECTIBLE_X + 1)
-        MAX_COLLECTIBLE_Y = SCREEN_HEIGHT_IN_PIXELS - collectible_height_in_pixels
+        MAX_COLLECTIBLE_Y = SCREEN_HEIGHT_IN_PIXELS - COLLECTIBLE_SIZE_IN_PIXELS
         collectible_y = random.randrange(MAX_COLLECTIBLE_Y + 1)
 
     # CLEAR THE SCREEN FOR THE NEW FRAME.
