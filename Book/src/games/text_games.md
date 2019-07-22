@@ -1,3 +1,3 @@
 # Text Games
 
-[Curriculum](Text%20Games.html)
+[Curriculum](../Text%20Games.html)

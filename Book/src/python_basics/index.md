@@ -1,3 +1,3 @@
 # Python Basics
 
-[Curriculum](Python%20Basics.html)
+[Curriculum](../Python%20Basics.html)

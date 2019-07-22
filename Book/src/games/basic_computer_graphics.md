@@ -1,3 +1,3 @@
 # Basic Computer Graphics
 
-[Curriculum](Basic%20Computer%20Graphics.html)
+[Curriculum](../Basic%20Computer%20Graphics.html)
