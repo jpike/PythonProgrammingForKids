@@ -3,6 +3,15 @@
 The next thing we need to add to our game to make it a bit more
 challenging is an enemy.  This will be done in several stages.
 
+Key concepts:
+- [pygame.time.Clock](https://www.pygame.org/docs/ref/time.html#pygame.time.Clock) for tracking elapsed time.
+- [Frame rate](https://en.wikipedia.org/wiki/Frame_rate)
+- [Speed](https://en.wikipedia.org/wiki/Speed)
+- [Velocity](https://en.wikipedia.org/wiki/Velocity)
+- [Unit conversions](https://github.com/jpike/PythonProgrammingForKids/blob/master/Pygame/UnitConversions.png)
+- 2D (x, y) coordinate systems
+- Screen/rectangle boundaries
+
 Figuring Out Enemy Movement in Standalone Program
 -------------------------------------------------
 - [Handout](https://docs.google.com/document/d/1VEe0vLi1IXnNsuqsCRGE5ph27L7Ymm7SEGkeKMTx0OM/)

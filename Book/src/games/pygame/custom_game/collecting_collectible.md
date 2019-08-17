@@ -3,6 +3,10 @@
 While we have a player moving on screen and a collectible drawn,
 we can't actually collect the collectible.  That's what we do next.
 
+Key concepts:
+- [pygame.Rect.colliderect()](https://www.pygame.org/docs/ref/rect.html#pygame.Rect.colliderect) - Check for collisions (intersections) between rectangles.
+- [Python random module](https://docs.python.org/3/library/random.html)
+
 Basics
 ------
 - [Handout](https://docs.google.com/document/d/1Hy6s-WuRUPkGn_QxozcLK-Z1XifWA0vgz8z8Bm-Rc6Q/)
