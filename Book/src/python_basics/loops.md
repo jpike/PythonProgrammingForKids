@@ -23,3 +23,6 @@ While Loops
 - <https://www.tutorialspoint.com/python3/python_nested_loops.htm>
 - [Program Arcade Games with Python and Pygame - Chapter 4 - Guessing Games with Random Numbers and Loops](http://programarcadegames.com/index.php?lang=en&chapter=loops)
 - [Program Arcade Games with Python and Pygame - Chapter 6 - Back to Looping](http://programarcadegames.com/index.php?lang=en&chapter=back_to_looping)
+
+Both `for` and `while` loops follow a similar indentation structure with a "header" and "body"
+as [conditional statements](./conditionals.md).
