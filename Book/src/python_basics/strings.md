@@ -13,6 +13,7 @@ String Basics
 - <https://www.learnpython.org/en/Basic_String_Operations>
 - <https://www.tutorialspoint.com/python3/python_strings.htm>
 - Teach Your Kids to Code - Chapter 5 - Conditions (What If?) - p.95-100
+- <https://realpython.com/convert-python-string-to-int/>
 
 More Advanced String Usage
 --------------------------
@@ -23,3 +24,6 @@ More Advanced String Usage
 - [Learn Python 3 the Hard Way - Exercise 6 - Strings and Text](https://learnpythonthehardway.org/python3/ex6.html)
 - [Learn Python 3 the Hard Way - Exercise 8 - Printing, Printing](https://learnpythonthehardway.org/python3/ex8.html)
 - <https://www.learnpython.org/en/String_Formatting>
+- <https://realpython.com/python-strings/>
+- <https://realpython.com/python-string-formatting/>
+- <https://realpython.com/python-string-split-concatenate-join/>

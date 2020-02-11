@@ -8,6 +8,7 @@ For Loops
 - <https://www.tutorialspoint.com/python3/python_for_loop.htm>
 - <https://docs.python.org/3/tutorial/controlflow.html#the-range-function>
 - <https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/For_Loops>
+- <https://realpython.com/python-for-loop/>
 
 While Loops
 -----------
@@ -23,6 +24,7 @@ While Loops
 - <https://www.tutorialspoint.com/python3/python_nested_loops.htm>
 - [Program Arcade Games with Python and Pygame - Chapter 4 - Guessing Games with Random Numbers and Loops](http://programarcadegames.com/index.php?lang=en&chapter=loops)
 - [Program Arcade Games with Python and Pygame - Chapter 6 - Back to Looping](http://programarcadegames.com/index.php?lang=en&chapter=back_to_looping)
+- <https://realpython.com/python-while-loop/>
 
 Both `for` and `while` loops follow a similar indentation structure with a "header" and "body"
 as [conditional statements](./conditionals.md).

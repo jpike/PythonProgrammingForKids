@@ -1,6 +1,7 @@
 # Variables
 
 - [Memory and Variables Slides](https://docs.google.com/presentation/d/10MAcEF8Y_lPuy_tAfU66H5x-5fc9Zmred88mUElxpMs/)
+- <https://realpython.com/python-variables/>
 
 There are a few important things to remember about variable names in Python:
 - Variables names can only include the following characters: letters, numbers, and underscores.

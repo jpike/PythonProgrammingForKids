@@ -21,3 +21,4 @@ Some additional resources that may be helpful include:
 - <https://docs.python.org/3/library/os.path.html>
 - <https://docs.python.org/3/library/os.html>
 - <https://docs.python.org/3/library/cmd.html>
+- <https://realpython.com/working-with-files-in-python/>

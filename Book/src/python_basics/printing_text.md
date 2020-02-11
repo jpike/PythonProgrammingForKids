@@ -11,3 +11,4 @@ users with the data they're interested in.
 - Learn Python 3 the Hard Way - Exercise 10 - What Was That?
 - [More Printing Exercises Handout](https://docs.google.com/document/d/1YGIFUXjmuCT_ATgRXHVfjafhQ4Tmd_LgIGVXcWXVFI0/)
 - Python Programming for the Absolute Beginner - Chapter 2 - Types, Variables, and Simple I/O: The Useless Trivia Program - p.15-27
+- <https://realpython.com/python-input-output/>

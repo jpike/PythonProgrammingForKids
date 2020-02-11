@@ -17,6 +17,7 @@
 - [If Statements Handout](https://docs.google.com/document/d/1SFSIDfRdPbKLUpCU3pV8SAAvKsjZGeKa0cZOWZNCukU/)
 - <https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Decisions>
 - <https://www.codequizzes.com/python/beginner-I/conditionals-if-elif-else>
+- <https://realpython.com/python-conditional-statements/>
 
 When using conditional statements like `if`, it's important for code to be properly indented.
 You need to understand how indentation determines what is "part of" or "not part of" a conditional statement.
