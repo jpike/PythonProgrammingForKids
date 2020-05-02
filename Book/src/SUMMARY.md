@@ -8,6 +8,7 @@
     - [Intro to Programming](./computer_basics/intro_to_programming.md)
     - [File Systems and the Command Line](./computer_basics/filesystems_command_line.md)
 - [Python Basics](./python_basics/index.md)
+    - [Installing Python](./python_basics/install_python.md)
     - [Python IDLE Basics](./python_basics/python_idle_basics.md)
     - [Printing Text](./python_basics/printing_text.md)
     - [Variables](./python_basics/variables.md)
